@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+ultralytics
+torch
+opencv-python-headless
+pillow
+python-multipart
+langdetect
+deep-translator
+gtts
+openai-whisper

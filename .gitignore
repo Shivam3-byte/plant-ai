@@ -1,0 +1,94 @@
+# ===============================
+# PYTHON
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.tmp
+
+# virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ===============================
+# DATASETS (VERY IMPORTANT)
+# ===============================
+dataset/
+training/dataset/
+*.zip
+*.tar
+*.gz
+
+# ===============================
+# YOLO TRAINING OUTPUT
+# ===============================
+runs/
+wandb/
+*.pt.cache
+
+# if you want to upload best.pt keep this line removed
+# backend/model/
+
+# ===============================
+# MODEL CACHE
+# ===============================
+*.pt
+!backend/model/best.pt
+
+# ===============================
+# NOTEBOOKS
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# FASTAPI / SERVER
+# ===============================
+*.db
+*.sqlite
+instance/
+
+# ===============================
+# NODE / FRONTEND
+# ===============================
+node_modules/
+dist/
+build/
+
+# React Native
+.expo/
+.expo-shared/
+
+# ===============================
+# ENV VARIABLES
+# ===============================
+.env
+.env.local
+
+# ===============================
+# DOCKER
+# ===============================
+*.dockerignore
+
+# ===============================
+# GRADCAM OUTPUT
+# ===============================
+gradcam.jpg
+heatmap/
+outputs/
+
+# ===============================
+# AUDIO FILES (VOICE ASSISTANT)
+# ===============================
+*.wav
+*.mp3
